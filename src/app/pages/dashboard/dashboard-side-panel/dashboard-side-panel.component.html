@@ -1,0 +1,67 @@
+<p style="margin-bottom: 2rem;">
+  Below are all configuration values for our button component.  Value can be combined to create any number of look and feels for our buttons.
+</p>
+<h2>Shapes</h2>
+
+<div fooButton 
+  [shape]="ButtonShape.SQUARED">Squared</div>
+
+<div fooButton 
+  [shape]="ButtonShape.ROUNDED"
+  [color]="ButtonColor.SUCCESS">Rounded</div>
+
+<div fooButton 
+  [shape]="ButtonShape.PILLED"
+  [color]="ButtonColor.INFO">Pilled</div>
+
+
+<h2 style="margin-top: 2rem;">Colors</h2>
+
+<div fooButton
+  [color]="ButtonColor.DEFAULT">Default</div>
+
+<div fooButton
+  [color]="ButtonColor.PRIMARY">Primary</div>
+
+<div fooButton
+  [color]="ButtonColor.SECONDARY">Secondary</div>
+
+<div fooButton
+  [color]="ButtonColor.SUCCESS">Success</div>
+
+<div fooButton
+  [color]="ButtonColor.INFO">Info</div>
+
+<div fooButton
+  [color]="ButtonColor.WARNING">Warning</div>
+
+<div fooButton
+  [color]="ButtonColor.DANGER">Danger</div>
+
+
+<h2 style="margin-top: 2rem;">Styles</h2>
+
+<div fooButton
+  [color]="ButtonColor.INFO"
+  [style]="ButtonStyle.SOLID">Solid</div>
+
+<div fooButton
+  [color]="ButtonColor.INFO"
+  [style]="ButtonStyle.OUTLINED"
+  [size]="ButtonSize.MEDIUM">Outlined</div>
+
+
+
+<h2 style="margin-top: 2rem;">Sizes</h2>
+
+<div fooButton
+  [size]="ButtonSize.LARGE">Large</div>
+
+<div fooButton
+  [color]="ButtonColor.SUCCESS"
+  [size]="ButtonSize.MEDIUM">Medium</div>
+
+<div fooButton
+  [color]="ButtonColor.INFO"
+  [size]="ButtonSize.SMALL">Small</div>
+
